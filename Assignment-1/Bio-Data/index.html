@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My Bio Data</h2>
+
+    <form action="#" method="POST">
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="firstname">FirstName :</label>
+            <input type="text" id="firstname" placeholder="First Name" name="firstname">
+            
+            <label for="lastname">LastName :</label>
+            <input type="text" id="lastname" placeholder="Last Name" name="lastname">
+            <br>
+            <br>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <br>
+            <br>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" id="DOB" name="DOB">
+            <br>
+            <br>
+            <label for="mail">E-Mail :</label>
+            <input type="email" id="mail" placeholder="Enter Your Email" name="mail">
+            <br>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" maxlength="10" id="phone" placeholder="+91" name="phone">
+            <br>
+            <br>
+            <label for="height">Height</label>
+            <input type="text" id="height" placeholder="Height in Feet" name="height">
+        </fieldset>
+
+        <fieldset>
+   
+            <legend>Education</legend>
+
+            <label for="sname">School Name :</label>
+            <input type="text" id="sname" placeholder="School Name" name="sname">
+            <br>
+            <br>
+            <label for="class">Class :</label>
+            <input type="text" id="class" placeholder="Enter Class" name="class">
+            <br>
+            <br>
+            <label for="stream">Stream :</label>
+            <select name="menu" placeholder="Stream">
+                <option>Science</option>
+                <option>Arts</option>
+                <option>Biology</option>
+            </select>
+            <br>
+            <br>
+            <label for="sheet">Marksheet :</label>
+            <input type="file" id="sheet" name="sheet">
+        
+        </fieldset>
+        <br>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
