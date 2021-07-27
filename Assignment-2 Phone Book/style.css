@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color:blue;
+    font-size: 3rem;
+    text-decoration:underline;
+}
+header{
+       position:sticky;
+       top: 0px;
+       z-index:100;
+
+}
+dt{
+   color:white;
+   background-color:skyblue;
+   font-size:2rem;
+   position:sticky;
+   top:55px;
+   border:2px solid black;
+}
+dd{
+    background-color: cornsilk;
+    font-size: 20px;
+    margin-left: 20px;
+    border-top:1px solid black;
+    position:sticky;
+    top:95px;
+}
+span{
+    margin-left: 1em;
+}
