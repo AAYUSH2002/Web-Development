@@ -1,0 +1,27 @@
+button{
+       background-color:black;
+       position: absolute;
+       text-align: center;
+       border-color: orangered;
+       color:orangered;
+       border-width: 2px;
+       padding:8px;
+       font-family: Arial, Helvetica, sans-serif;
+       border-radius: 2px;
+       
+}
+
+body{
+       background-color: black;
+       align-items: center;
+       justify-content:center;
+       display: flex;
+       height:100vh;
+}
+button:hover{
+    box-shadow:0px 0.5em 0.5em -0.4em  yellowgreen;
+    transform: translateY(-2px);
+    border-color: yellowgreen;
+    color:yellowgreen;
+    cursor: pointer;
+}
